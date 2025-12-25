@@ -1,7 +1,7 @@
 import React from 'react'
 import './projects.css'
-import project_edge_img from '../../assets/project_edge.png'
-import project_fgi_img from '../../assets/project_fgi.gif'
+import project_edge_img from '/project_edge.png'
+import project_fgi_img from '/project_fgi.gif'
 import Project from './Project.jsx'
 
 const Projects = () => {
