@@ -8,3 +8,16 @@
     color: var(--color-light);
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .resume__container {
+        grid-template-columns: 1fr;
+    }
+    .sub_title_resume {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        font-size: 1.2rem;
+    }
+
+}
