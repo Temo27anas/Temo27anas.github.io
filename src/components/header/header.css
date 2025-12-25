@@ -1,0 +1,131 @@
+header{
+
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.floating__nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 1.2rem 2.5rem;
+    border-radius: 0 0 2rem 2rem;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.floating__nav a {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.floating__nav a:hover {
+    color: var(--color-primary);
+}
+
+.header__container{
+
+    text-align: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.cta{
+
+    margin-top: 2.5rem;  
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header__container h5 {
+    font-size: 2rem;
+}
+
+.header__container h1 {
+    font-size: 4.5rem;
+}
+
+.cta .btn {
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+}
+
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1,5rem 1.5rem;
+}
+
+.me > img{
+    margin-left: .5rem;
+}
+
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+    .me > img{
+        margin-top: 2.5rem;
+    }
+}

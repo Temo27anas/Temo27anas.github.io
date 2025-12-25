@@ -1,0 +1,10 @@
+.resume__container {
+    /* make it devided into two columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sub_title_resume {
+    color: var(--color-light);
+    margin-bottom: 2rem;
+}
