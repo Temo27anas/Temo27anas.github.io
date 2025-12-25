@@ -14,7 +14,7 @@ const Skills = () => {
 
       <div className="container experience__container">
 
-        <div className="experience__1">
+        <div className="experience_card">
             <h3>ML/AI</h3>
 
             <div className="experience__content">
@@ -78,8 +78,7 @@ const Skills = () => {
             </div>
         </div>
    
-
-        <div className="experience__2">
+        <div className="experience_card">
             <h3>Software Engineering</h3>
             <div className="experience__content">
 

@@ -4,7 +4,7 @@
     gap: 2rem;
 }
 
-.experience__container > div{
+.experience_card{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -69,5 +69,19 @@
     .experience__container > div{
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience_card {
+        padding: 1.5rem 1rem;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .experience_card{
+        padding: 1.5rem 1rem;
     }
 }

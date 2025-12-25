@@ -182,3 +182,16 @@ header::before {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .floating__nav {
+        padding: 1rem 1.5rem;
+        gap: 1rem;
+    }
+    .floating__nav a {
+        font-size: 0.9rem;
+    }
+
+
+
+}
