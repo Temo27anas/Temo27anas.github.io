@@ -3,7 +3,7 @@ import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Footer from './components/footer/Footer'
 import Resume from './components/resume/Resume'
-//import Publications from './components/publications/Publications'
+import Publications from './components/publications/Publications'
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
       <Header/>
       <Resume/>
       <Skills/>
+      <Publications/>
       <Projects/>
       <Footer/>
 

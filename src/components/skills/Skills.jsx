@@ -15,7 +15,7 @@ const Skills = () => {
       <div className="container experience__container">
 
         <div className="experience_card">
-            <h3>ML/AI</h3>
+            <h3>Data & AI</h3>
 
             <div className="experience__content">
 
@@ -72,6 +72,13 @@ const Skills = () => {
                {<BsFillPatchCheckFill className='experience__details-icon'/>}
                 <div>
                   <h4>Computer Vison</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+               {<BsFillPatchCheckFill className='experience__details-icon'/>}
+                <div>
+                  <h4>Power BI</h4>
                 </div>
               </article>
            
